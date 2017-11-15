@@ -1,16 +1,16 @@
 #!/bin/bash
 
-#set from=wdcpalert@xxx.com.cn 
+#set from=alert@xxx.com.cn 
 #set smtp=10.199.xx.xx
-#set smtp-auth-user=wdcpalert
-#set smtp-auth-password=wdcpalert123
+#set smtp-auth-user=alert
+#set smtp-auth-password=alert123
 #set smtp-auth=login
 
 to=$1
 subject=$2
 body=$3
 
-cat <<EOF | mail -s "$subject" -S from=wdcpalert@xxx.com.cn -S smtp=10.199.xx.xx -S smtp-auth-password=wdcpalert123 -S smtp-auth-user=wdcpalert -S smtp-auth=login "$to"  
+cat <<EOF | mail -s "$subject" -S from=alert@xxx.com.cn -S smtp=10.199.xx.xx -S smtp-auth-password=alert123 -S smtp-auth-user=alert -S smtp-auth=login "$to"  
 $body
 EOF
 
