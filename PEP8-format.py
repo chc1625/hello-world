@@ -1,3 +1,6 @@
+
+# pycodestyle  micro.py   --show-pep8  
+
 person = {
     'first': 'Tobin',
     'age':20
