@@ -1,4 +1,5 @@
 # http://www.runoob.com/w3cnote/python-yield-used-analysis.html
+yield 类似return，但是只是在for等循环迭代的时候才真的执行。
 
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
