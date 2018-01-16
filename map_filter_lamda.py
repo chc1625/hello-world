@@ -35,3 +35,14 @@ def getKey(item):
     return item[0]
 s = sorted(L,key = getKey)
 print(s)
+
+           
+
+           
+## Python 有办法将任意值转为字符串：将它传入repr() 或str() 函数。
+
+## 函数str() 用于将值转化为适于人阅读的形式，而repr() 转化为供解释器读取的形式。
+dict1 = {'runoob': 'runoob.com', 'google': 'google.com'};
+print(repr(dict1))
+           
+
