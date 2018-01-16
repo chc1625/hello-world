@@ -24,5 +24,14 @@ a = filter(lambda x: x % 2 == 0, range(10)
 for i in a:
     print(i)
     
+## 排序
+s = sorted(['bob', 'about', 'Zoo', 'Credit'], key=str.lower, reverse=True)
+print(s)
 
-
+           
+## 对tuple排序
+L = [('Bob', 75), ('Adam', 92), ('Bart', 66), ('Lisa', 88)]
+def getKey(item):
+    return item[0]
+s = sorted(L,key = getKey)
+print(s)
