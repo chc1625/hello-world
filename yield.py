@@ -37,7 +37,27 @@ def fab(max):
  
 for n in fab(5): 
     print n
+  
 
+=========
+def fib(max):
+    n,a,b = 0,0,1
+    c = []
+    while n < max:
+        c.append(a)
+        a,b=b,a+b
+        n = n +1 
+    return c
+
+print(fib(10))
+
+
+d = [x*x for x in range(10)]
+print(d)
+
+
+for i in (x*x for x in range(10))
+    print(i)
 
 def read_file(fpath): 
     BLOCK_SIZE = 1024 
